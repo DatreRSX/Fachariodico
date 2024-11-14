@@ -5,18 +5,44 @@ background-color: rgba(83, 100, 255, 0.712);
 justify-content: center;
 align-items: center;
 margin: 0;
+flex-direction: column;
 }
 
 #CajonUI
 {
 display: flex;
-background-color: black;
+background-color: rgb(0, 136, 255);
+width: 100%;
+height:auto;
+padding: 10px;
+justify-content:center;
+align-items: center;
+font-size: 30px;
+}
+
+#Titulo
+
+{
+
+color:red;
+
+}
+
+#CajonUI1
+{
+display: flex;
+background-color: aliceblue;
 width: 100%;
 height:auto;
 padding: 10px;
 justify-content: end;
 align-items: end;
+align-content: end;
+border-bottom-left-radius: 20px ;
+border-bottom-right-radius: 20px ;
+width: 95%;
 }
+
 
 .CajaUI
 {
@@ -24,9 +50,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 background-color: aliceblue;
-width: 8%;
-height: 60px;  
+width: 9%;
+height: 50px;  
 margin: 10px;
-border-radius: 10px;
+border-right: 3px solid gray;
 
 }
