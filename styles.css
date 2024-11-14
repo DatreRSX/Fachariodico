@@ -1,7 +1,6 @@
 body
 {
 display: flex;
-
 justify-content: center;
 align-items: center;
 margin: 0;
@@ -11,6 +10,7 @@ flex-direction: column;
 #CajonTitulo
 {
 display: flex;
+
 background-color: rgb(38, 136, 248);
 width: 100%;
 height:auto;
@@ -30,6 +30,7 @@ font-family:'Times New Roman', Times, serif;
 
 #CajonUI
 {
+
 font-family:'Times New Roman', Times, serif;
 display: flex;
 background-color:rgb(205, 231, 253);
