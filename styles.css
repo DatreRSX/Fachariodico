@@ -129,19 +129,36 @@ margin-top: 2%;
     justify-content: center;
     align-items: center;
     background-color: gray;
-    width:88%;
+    width:90%;
     height: auto;    
     margin-top: 3%;
     border-radius: 3px;
     font-size: 37px;
-  
+    flex-wrap: wrap;
 
 }
 
 #layout
 {
-width: 50%;
-flex-wrap: nowrap;
+display: flex;
+width: 45%;
+flex-direction: column;
 height: auto;
 padding: 30px;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+
+footer
+{
+display: flex;
+background-color: rgba(0, 0, 255, 0.507);
+width: 100%;
+height:100px;
+font-size: 20px;
+ margin-top: 30px;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
 }
