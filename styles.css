@@ -24,7 +24,7 @@ font-size: 60px;
 #Titulo
 
 {
-font-size: 25px;
+
 color:rgb(255, 255, 255);
 font-family:'Times New Roman', Times, serif;
 }
@@ -89,9 +89,10 @@ font-size: 37px;
 padding: 20px;
 }
 
-#Titulo
+#Tituloo
 {
-    color: black;
+    font-size: 25px;
+color: black;
 display: flex;
 justify-content: center;
 align-items: flex-end;
