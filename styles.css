@@ -5,13 +5,14 @@ justify-content: center;
 align-items: center;
 margin: 0;
 flex-direction: column;
+background-color: aliceblue;
 }
 
 #CajonTitulo
 {
 display: flex;
 
-background-color: rgb(38, 136, 248);
+background-color: rgb(75, 112, 212);
 width: 100%;
 height:auto;
 padding: 10px;
@@ -33,16 +34,17 @@ font-family:'Times New Roman', Times, serif;
 
 font-family:'Times New Roman', Times, serif;
 display: flex;
-background-color:rgb(205, 231, 253);
-width: 100%;
+background-color: rgb(75, 112, 212);
+width: 94%;
 height:45px;
 padding: 10px;
 justify-content: center;
 align-items:center;
 align-content: center;
-border-bottom-left-radius: 20px ;
-border-bottom-right-radius: 20px ;
-width: 93%;
+border-bottom-left-radius: 30px ;
+border-bottom-right-radius: 30px ;
+box-shadow: -5px 5px  10px 0px rgba(128, 128, 128, 0.267);
+
 
 }
 
@@ -53,19 +55,93 @@ display: flex;
 align-items: center;
 justify-content: center;
 align-content: center;
-background-color: rgb(205, 231, 253);
 width: 15%;
 height: 40px;  
-
-
-
 }
 
 #rayaGrisUI
 {
 
-height:90%;
-width:0.34%;
-background-color: rgba(153, 153, 153, 0.432);
+    height:90%;
+    width:0.2%;
+    background-color: rgba(21, 51, 136, 0.616);
+}    
 
+#shadow
+{
+display: flex;
+   width: auto;
+   height: auto; 
+}
+
+#Portada
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgba(128, 128, 128, 0.596);
+width:93.5%;
+height: auto;    
+margin-top: 3%;
+border-radius: 3px;
+font-size: 37px;
+padding: 20px;
+}
+
+#Titulo
+{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+align-content: flex-end;
+}
+#Subtitulo
+{
+display: flex;
+
+justify-content:center;
+align-items:flex-start;
+align-content: flex-start;
+font-size: 15px;
+width:93.5%;
+height: auto;    
+font-size: 23px;
+}
+
+#Parrafo
+{
+display: flex;
+justify-content:center;
+align-items:center;
+align-content: center;
+font-size: 15px;
+width:93.5%;
+height: auto;    
+font-size: 23px;
+margin-top: 2%;
+}
+
+#Noticias
+{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width:88%;
+    height: auto;    
+    margin-top: 3%;
+    border-radius: 3px;
+    font-size: 37px;
+  
+
+}
+
+#layout
+{
+width: 50%;
+flex-wrap: nowrap;
+height: auto;
+padding: 30px;
 }
