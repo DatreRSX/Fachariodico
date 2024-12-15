@@ -8,7 +8,7 @@ padding: 0;
 justify-content: center;
 align-items: center;
 align-content: center;
-
+font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -177,16 +177,16 @@ padding-bottom:8px ;
   
 
   #contenido
-  {
+{
 display: flex;
-
 flex-direction: column;
 align-items: center;
 align-content: center;
 justify-content: center;
 background-color: #000f9423;
 width: 85%;
-  }
+}
+
   .noticia h2 {
     margin: 0 0 10px;
     font-size: 25px;
@@ -197,18 +197,124 @@ width: 85%;
     color: #555;
   }
 
-footer
-{
-display: flex;
-background-color: #050c36d5;
-width: 100%;
-height:100px;
-font-size: 20px;
-color: white;
- justify-content: center;
- align-items: center;
- align-content: center;
+
+.footer {
+  background-color: #050c36d5;
+  color: #fff;
+  padding: 1.2% 1%;
+  font-size: 14px;
+  line-height: 1.6;
+  width: 98%;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:90%;
+  margin: 0 auto;
+  gap:10px
+}
+
+.footer h2, .footer h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* Sección de descripción */
+.footer-about {
+  flex: 1 1 250px;
+  margin-bottom: 20px;
+}
+
+.footer-about p {
+  margin: 0;
+}
+
+.footer-links ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #fff;
+}
+
+/* Sección de contacto */
+.footer-contact {
+  flex: 1 1 250px;
+  margin-bottom: 20px;
+}
+
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact ul li i {
+  margin-right: 10px;
+  color: #aaa;
+}
+
+/* Sección de redes sociales */
+.footer-social {
+  
+  flex: 1 1 200px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #b3afaf;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+/* Footer inferior */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  color: #aaa;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-about, .footer-links, .footer-contact, .footer-social {
+      flex: 1 1 100%;
+      text-align: center;
+  }
+
+  .footer-contact ul li {
+      justify-content: center;
+  }
+
+  .social-icons a {
+      margin: 0 5px;
+  }
+}
+
 
 h1
 {
