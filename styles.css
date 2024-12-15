@@ -221,7 +221,10 @@ color: white;
   @media (max-width: 768px) {
     .noticia {
       width: 48%; 
+
   }
+
+}
   
   @media (max-width: 480px) {
     .noticia {
