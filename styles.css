@@ -321,7 +321,8 @@ h1
 margin:8px
 }
   
-  @media (max-width: 768px) {
+  @media (max-width: 768px) 
+  {
     .noticia {
       width: 48%; 
 
@@ -329,7 +330,8 @@ margin:8px
 
 }
   
-  @media (max-width: 480px) {
+  @media (max-width: 480px)
+   {
     .noticia {
       width: 100%; 
     }
