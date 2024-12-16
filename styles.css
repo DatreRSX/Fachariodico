@@ -11,8 +11,6 @@ align-content: center;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 #CajonTitulo
 {
 display: flex;
@@ -23,7 +21,6 @@ padding: 1%;
 justify-content:center;
 align-items: center;
 font-size: 60px;
-
 }
 
 #Cuerpo
@@ -31,12 +28,10 @@ font-size: 60px;
 display: flex;
 width: 80%;
 flex-direction: column;
-
 }
+
 #Titulo
-
 {
-
 color:rgb(255, 255, 255);
 font-family:'Times New Roman', Times, serif;
 margin-left: 15px;
@@ -44,7 +39,6 @@ margin-left: 15px;
 
 #CajonUI
 {
-
 font-family:'Times New Roman', Times, serif;
 display: flex;
 background-color: rgb(70, 108, 212);
@@ -67,8 +61,7 @@ width: 100%;
 display: flex;
 flex-direction: column;
 z-index: 1200;
-  }
-
+}
 
 #seccionUI
 {
@@ -80,7 +73,6 @@ justify-content: center;
 align-items:center;
 align-content: center;
 }
-
 /*Tan facil de solucionar y 10 min para esto*/
 a
 {
@@ -93,12 +85,10 @@ color: inherit;
 
 #logo
 {
-
 width: 60px;
 height: 60px; 
 border-radius: 60px;
 border: 4px solid white;
-
 }
 
 .CajaUI
@@ -113,35 +103,32 @@ color: white;
 font-family: calibri;
 font-size: 19px;
 font-weight: bold;
-
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: #1f2857;
-    color: white;
-
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+align-content: center;
+background-color: #1f2857;
+color: white;
 width: 100%;
 margin: 0;
 padding-top: 8px;
 padding-bottom:8px ;
-
-  }
+}
   
-  .noticias-container {
-    display: flex;
-    flex-wrap: wrap; 
-    padding-top: 4%; 
-    padding-bottom: 4%;
- 
-    justify-content:center; 
-    width: 90%;
-  }
+.noticias-container
+{
+display: flex;
+flex-wrap: wrap; 
+padding-top: 4%; 
+padding-bottom: 4%;
+justify-content:center; 
+width: 90%;
+}
   
   .noticia {
     display: flex;
@@ -176,7 +163,7 @@ padding-bottom:8px ;
   }
   
 
-  #contenido
+#contenido
 {
 display: flex;
 flex-direction: column;
@@ -187,16 +174,15 @@ background-color: #000f9423;
 width: 85%;
 }
 
-  .noticia h2 {
+.noticia h2 {
     margin: 0 0 10px;
     font-size: 25px;
     color: #333;
   }
   
-  .noticia p {
+.noticia p {
     color: #555;
   }
-
 
 .footer {
   background-color: #050c36d5;
@@ -222,7 +208,6 @@ width: 85%;
   margin-bottom: 15px;
 }
 
-/* Sección de descripción */
 .footer-about {
   flex: 1 1 250px;
   margin-bottom: 20px;
@@ -242,7 +227,6 @@ width: 85%;
   color: #fff;
 }
 
-/* Sección de contacto */
 .footer-contact {
   flex: 1 1 250px;
   margin-bottom: 20px;
@@ -264,7 +248,7 @@ width: 85%;
   color: #aaa;
 }
 
-/* Sección de redes sociales */
+
 .footer-social {
   
   flex: 1 1 200px;
@@ -278,14 +262,13 @@ width: 85%;
   color: #b3afaf;
   font-size: 20px;
   transition: color 0.3s ease;
-  
 }
 
 .social-icons a:hover {
   color: #fff;
 }
 
-/* Footer inferior */
+
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
@@ -294,8 +277,8 @@ width: 85%;
   color: #aaa;
 }
 
-/* Responsividad */
-@media (max-width: 768px) {
+@media (max-width: 768px)
+ {
   .footer-container {
       flex-direction: column;
       align-items: center;
@@ -315,25 +298,21 @@ width: 85%;
   }
 }
 
+@media (max-width: 768px) 
+{
+  .noticia {
+    width: 48%; 
+}
+}
+
+@media (max-width: 480px)
+ {
+  .noticia {
+    width: 100%; 
+  }
+}
 
 h1
 {
 margin:8px
 }
-  
-  @media (max-width: 768px) 
-  {
-    .noticia {
-      width: 48%; 
-
-  }
-
-}
-  
-  @media (max-width: 480px)
-   {
-    .noticia {
-      width: 100%; 
-    }
-  }
-
