@@ -1,137 +1,158 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Librediorico</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Librediorico</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-
 <body>
-<div id="CajonTitulo">
-<div><img id="logo" src="logo.png" alt="logo"></div>
-<div id="Titulo">Librediorico</div>  
-</div>
+  <div id="CajonTitulo">
+  <div><img id="logo" src="logo.png" alt="logo"></div>
+  <div id="Titulo">Librediorico</div>  
+  </div>
+  
+  <div id="ui">
+  <div id="CajonUI">
+  <div id="seccionUI">
+  <a href="index.html"> <div id="inicio" class="CajaUI" href="index.html">España</div></a>
+  <a href="cultura.html"> <div class="CajaUI">Cultura</div></a>
+  <a href="internacional.html"> <div class="CajaUI">internacional</div></a>
+  <a href="deportes.html"> <div id="final" class="CajaUI">Deportes</div></a>
+  </div>
+  </div>
+  </div>
 
-<div id="ui">
-<div id="CajonUI">
-<div id="seccionUI">
-<a href="index.html"> <div id="inicio" class="CajaUI" href="index.html">España</div></a>
-<a href="cultura.html"> <div class="CajaUI">Cultura</div></a>
-<a href="internacional.html"> <div class="CajaUI">internacional</div></a>
-<a href="deportes.html"> <div id="final" class="CajaUI">Deportes</div></a>
-</div>
-</div>
-</div>
+    <!-- Contenido principal -->
+    <div id="contenido">
+        <!-- Titulares y noticias -->
+        <header>
+            <h2>España</h2>   
+        </header>
 
-<div id="contenido">
-  <header>
-    <h1>España</h1>   
-  </header>
-     <article class="noticiaPortada">
-      <h2>Título de la Noticia 1</h2>
-      <p> Descripción breve de la noticia 1</p>
-    </article>
+        <!-- Artículo principal destacado -->
+        <article class="noticiaPortada">
+            <h1>El Gobierno Anuncia un Nuevo Plan de Infraestructuras para Descongestionar Madrid</h1>
+            <p>El gobierno español ha presentado un plan para mejorar el transporte en Madrid, con nuevas líneas de metro, ampliación de carriles bici y 
+              0la construcción de un gran aparcamiento subterráneo en el centro de la ciudad para aliviar el tráfico.</p>
+            <img src="foto.jpg" alt="Noticia principal" class="imagen-noticia">
+        </article>
 
-  <main class="noticias-container">
-    <article class="noticia">
-      <h2>Título de la Noticia 1</h2>
-      <p>Descripción breve de la noticia 1.</p>
-    </article>
-    <article class="noticia">
-      <h2>Título de la Noticia 2</h2>
-      <p>Descripción breve de la noticia 2.</p>
-    </article>
-    <article class="noticia">
-      <h2>Título de la Noticia 3</h2>
-      <p>Descripción breve de la noticia 3.</p>
-    </article>
-  </main>
+        <!-- Noticias en columnas -->
+        <main class="noticias-container">
+            <article class="noticia">
+              <img src="foto2.jpg" alt="Noticia 2" class="imagen-noticia">
+                <h2>España Registra el Mayor Aumento de Turismo en 10 Años</h2>
+                <p>En los últimos tres meses, España ha experimentado un incremento récord del 25% en el turismo internacional, 
+                  superando las expectativas del sector. Las principales ciudades como Madrid,
+                  Barcelona y Valencia han sido los destinos más populares entre los turistas extranjeros.</p>
+               
+            </article>
+            <article class="noticia">
+              <img src="foto3.jpg" alt="Noticia 3" class="imagen-noticia">
+                <h2>El Gobierno Anuncia Nuevas Medidas para Reducir la Contaminación en Madrid</h2>
+                <p>l presidente del Gobierno ha presentado un plan integral para reducir la contaminación en Madrid en un 40% para 2030. 
+                  Las medidas incluyen una expansión de las zonas de bajas emisiones y la promoción de vehículos eléctricos.</p>
+            </article>
+            <article class="noticia">
+              <img src="foto4.jpg" alt="Noticia 4" class="imagen-noticia">
+                <h2>Una Nueva Ley de Vivienda Busca Facilitar el Acceso a la Propiedad en España</h2>
+                <p>El Gobierno ha aprobado una nueva ley que facilitará a los jóvenes y familias con bajos ingresos acceder a 
+                  la compra de viviendas a precios más asequibles.
+                   Esta reforma es parte del paquete de medidas sociales impulsadas por la administración.</p>
+      
+            </article>
+        </main>
 
-  <main class="noticias-container">
-    <article class="noticia">
-      <h2>Título de la Noticia 1</h2>
-      <p>Descripción breve de la noticia 1.</p>
-    </article>
-    <article class="noticia">
-      <h2>Título de la Noticia 2</h2>
-      <p>Descripción breve de la noticia 2.</p>
-    </article>
-    <article class="noticia">
-      <h2>Título de la Noticia 3</h2>
-      <p>Descripción breve de la noticia 3.</p>
-    </article>
-  </main>
-  <main class="noticias-container">
-    <article class="noticia">
-      <h2>Título de la Noticia 1</h2>
-      <p>Descripción breve de la noticia 1.</p>
-    </article>
-    <article class="noticia">
-      <h2>Título de la Noticia 2</h2>
-      <p>Descripción breve de la noticia 2.</p>
-    </article>
-    <article class="noticia">
-      <h2>Título de la Noticia 3</h2>
-      <p>Descripción breve de la noticia 3.</p>
-    </article>
-  </main>
-  <main class="noticias-container">
-    <article class="noticia">
-      <h2>Título de la Noticia 1</h2>
-      <p>Descripción breve de la noticia 1.</p>
-    </article>
-    <article class="noticia">
-      <h2>Título de la Noticia 2</h2>
-      <p>Descripción breve de la noticia 2.</p>
-    </article>
-    <article class="noticia">
-      <h2>Título de la Noticia 3</h2>
-      <p>Descripción breve de la noticia 3.</p>
-    </article>
-  </main>
-</div>
+        <main class="noticias-container">
+          <article class="noticia">
+              <h2>Título de la Noticia 2</h2>
+              <p>Descripción breve de la noticia 2.</p>
+              <img src="foto2.jpg" alt="Noticia 2" class="imagen-noticia">
+          </article>
+          <article class="noticia">
+              <h2>Título de la Noticia 3</h2>
+              <p>Descripción breve de la noticia 3.</p>
+              <img src="foto3.jpg" alt="Noticia 3" class="imagen-noticia">
+          </article>
+          <article class="noticia">
+              <h2>Título de la Noticia 4</h2>
+              <p>Descripción breve de la noticia 4.</p>
+              <img src="foto4.jpg" alt="Noticia 4" class="imagen-noticia">
+          </article>
+      </main>
 
-<footer class="footer">
-  <div class="footer-container">
-      <div class="footer-about">
-          <h2>Librediorico</h2>
-          <p>El peridico libre en un pais que no es libre</p>
-      </div>
+        <!-- Tabla de información -->
+        <section class="tabla">
+            <h2>Tabla de Estadísticas</h2>
+            <table>
+                <tr>
+                    <th>País</th>
+                    <th>Población</th>
+                    <th>Área (km²)</th>
+                </tr>
+                <tr>
+                    <td>España</td>
+                    <td>47,450,000</td>
+                    <td>505,992</td>
+                </tr>
+                <tr>
+                    <td>Francia</td>
+                    <td>67,000,000</td>
+                    <td>643,801</td>
+                </tr>
+            </table>
+        </section>
 
-      <div class="footer-contact">
-          <h3>Contacto</h3>
-          <ul>
-              <li><i class="fas fa-map-marker-alt"></i>C/Velazquez 8, Madrid</li>
-              <li><i class="fas fa-phone"></i> +34 617789742</li>
-              <li><i class="fas fa-envelope"></i>librediorico@españa.es</li>
-          </ul>
-      </div>
 
-      <div class="footer-social">
-          <h3>Siguenos</h3>
-          <div class="social-icons">
-            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-              <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-              <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-              <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-              <i class="fab fa-linkedin-in"></i>
-          </a>
+        <section class="publicidad">
+          <h2>Publicidad</h2>
+          <div class="banner">
+              <img src="publicidad.jpg" alt="Publicidad" class="imagen-publicidad">
+        <section class="suscripcion">
+          <h2>Suscríbete a nuestro boletín</h2>
+          <form action="suscripcion.php" method="POST">
+              <input type="email" name="email" placeholder="Introduce tu email" required>
+              <button type="submit">Suscribirse</button>
+          </form>
+        </section>
           </div>
+        </section>
 
-      </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>Librediorico</h2>
+                <p>El periódico libre en un país que no es libre</p>
+            </div>
 
-  </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>C/Velázquez 8, Madrid</li>
+                    <li><i class="fas fa-phone"></i> +34 617789742</li>
+                    <li><i class="fas fa-envelope"></i>librediorico@españa.es</li>
+                </ul>
+            </div>
 
-  <div class="footer-bottom">
-      <p>&copy; 2024 Librediorico. Todos los derechos reservados.</p>
-  </div>
-</footer>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Librediorico. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
+
